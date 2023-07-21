@@ -198,7 +198,6 @@ Encore.configureDevServerOptions((options) => {
 |
 */
 
-
 Encore.enableVueLoader(() => { }, {
   version: 3,
   runtimeCompilerBuild: false,
@@ -219,7 +218,5 @@ config.stats = 'errors-warnings'
 | Export config for webpack to do its job
 |
 */
-
-
 
 module.exports = config

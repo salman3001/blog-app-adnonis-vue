@@ -1,13 +1,12 @@
-<template>
-    <h1>hello
-    </h1>
-</template>
+<script lang="ts" setup></script>
 
-<script lang="ts" setup>
-import AdminLayout from "./components/AdminLayout.vue";
+<script>
+import Layout from './components/AdminLayout.vue'
 
-defineProps({
-    layout: AdminLayout
-})
-
+export default {
+  layout: Layout,
+}
 </script>
+<template>
+  <h1>hello</h1>
+</template>
